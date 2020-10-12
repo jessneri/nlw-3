@@ -1,0 +1,46 @@
+body,
+input,
+button,
+textarea {
+    /*font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    line-height: 1;*/
+    font: 400 1.8rem/1 "Ninuto", sans-serif;
+}
+
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 90%;
+}
+
+h1,
+.location,
+.visit p {
+    height: 16vh;
+}
+
+.visit a {
+    width: 8rem;
+    height: 8rem;
+    background: #ffd666;
+    border: none;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: background 200ms;
+}
+
+.visit a:hover {
+    background: #96feff;
+}
